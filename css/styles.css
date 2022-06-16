@@ -6,13 +6,76 @@ body {
     height: 70px;
 }
 
-#navbar {
-    font-family: 'Work Sans', sans-serif;
+.void {
+    background-color: #A19882;
+    height: 50px;
+}
+
+.folder-back {
+    background-color: #E6DDC6;
+    height: 50px;
+    text-align: center;
+}
+
+.folder-tab {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0 2.5px;
+    height: 50px;
+}
+
+.trangle {
+    margin-top: 10px;
+    margin-left: -5px;
+    background-color: #A19882;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0 40px;
+    border-color: transparent transparent transparent #E6DDC6;
+}
+
+.trangle2 {
+    margin-bottom: 10px;
+    margin-left: -29px;
+    background-color: #FEF7DC;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 40px 0 0;
+    border-color: #8FBB76 transparent transparent transparent;
+}
+
+.tab-text {
+    margin-top: 13px;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
+}
+
+.tab-text:hover {
+    color: #FEF7DC;
+}
+
+.main-tab-text {
+    margin-top: -40px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
+}
+
+.main-tab-text:hover {
+    color: #FEF7DC;
 }
 
 #top-div {
     text-align: center;
-    padding: 160px 0 100px 0;
+    padding-top: 160px;
     background-color: #FEF7DC;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
@@ -21,12 +84,31 @@ body {
 #experience-div {
     text-align: center;
     padding: 5rem;
-    background-color: #E6DDC6;
-    font-family: "Work Sans";
+    background-color: #FEF7DC;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 45px;
+}
+
+#experience-border {
+    background-color: #8FBB76;
+    padding: 70px 30px;
+}
+
+.socials {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: 2rem;
+}
+
+.socials:hover {
+    color: #C2B8A3;
 }
 
 
 /* Colors */
+
+
+/* Color pallet -> https://www.schemecolor.com/apple-retro-logo.php */
 
 .mac1 {
     color: #8FBB76;
