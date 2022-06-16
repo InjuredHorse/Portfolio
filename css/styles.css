@@ -1,0 +1,77 @@
+body {
+    background-color: #FEF7DC;
+}
+
+.buffer {
+    height: 70px;
+}
+
+#navbar {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#top-div {
+    text-align: center;
+    padding: 160px 0 100px 0;
+    background-color: #FEF7DC;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+#experience-div {
+    text-align: center;
+    padding: 5rem;
+    background-color: #E6DDC6;
+    font-family: "Work Sans";
+}
+
+
+/* Colors */
+
+.mac1 {
+    color: #8FBB76;
+}
+
+.mac2 {
+    color: #FCC76A;
+}
+
+.mac3 {
+    color: #F4A755;
+}
+
+.mac4 {
+    color: #E06C79;
+}
+
+.mac5 {
+    color: #8A5F9E;
+}
+
+.mac6 {
+    color: #519FB0;
+}
+
+.bgmac1 {
+    background-color: #8FBB76;
+}
+
+.bgmac2 {
+    background-color: #FCC76A;
+}
+
+.bgmac3 {
+    background-color: #F4A755;
+}
+
+.bgmac4 {
+    background-color: #E06C79;
+}
+
+.bgmac5 {
+    background-color: #8A5F9E;
+}
+
+.bgmac6 {
+    background-color: #519FB0;
+}
