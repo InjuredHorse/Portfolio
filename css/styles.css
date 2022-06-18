@@ -62,7 +62,16 @@ body {
 
 .main-tab-text {
     margin-top: -40px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
+}
+
+.main-tab-text2 {
+    margin-top: 0px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: inherit;
     text-decoration: inherit;
@@ -73,6 +82,10 @@ body {
     color: #FEF7DC;
 }
 
+.main-tab-text-hover:hover {
+    color: #A19882;
+}
+
 #top-div {
     text-align: center;
     padding-top: 160px;
@@ -81,7 +94,7 @@ body {
     font-weight: 600;
 }
 
-#experience-div {
+#page-div {
     text-align: center;
     padding: 5rem;
     background-color: #FEF7DC;
@@ -89,8 +102,7 @@ body {
     border-radius: 45px;
 }
 
-#experience-border {
-    background-color: #8FBB76;
+#page-border {
     padding: 70px 30px;
 }
 
